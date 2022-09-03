@@ -22,7 +22,16 @@ docker stop testneo4j #stoping the container altogether
 docker start testneo4j
 ```
 
+- Load dependencies:
+```
+pipenv install
+pipenv shell
+```
+
 - Open the Jupiter Note that is the `fraud-detection` folder.
+```
+(neo4j):$ jupyter notebook
+```
 
 ## Stop
 
